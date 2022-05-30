@@ -1,0 +1,98 @@
+.modal-dialog p button {
+  border: none;
+  background: none;
+}
+
+
+.btn_1,
+.btn_2:hover {
+    background-image: linear-gradient(to left, #00b4ff 0, #57ddff 51%, #00b4ff 100%)
+}
+
+
+.btn_1 {
+    display: inline-block;
+    padding: 18.5px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    background-size: 200% auto;
+    border: 1px solid transparent
+}
+
+.btn_1:hover {
+    color: #fff !important;
+    background-position: right center
+}
+
+@media(max-width:576px) {
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 20px
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 20px
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .btn_1 {
+        padding: 10px 30px;
+        margin-top: 25px
+    }
+}
+
+.btn_2 {
+    display: inline-block;
+    padding: 18.5px 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    color: #1a1a1a;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    border: 1px solid #8f9091;
+    background-size: 200% auto
+}
+
+.btn_2:hover {
+    color: #fff !important;
+    border: 1px solid #0ab6ff;
+    background-position: right center
+}
+
+@media(max-width:576px) {
+    .btn_2 {
+        padding: 10px 30px;
+        margin-top: 20px
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .btn_2 {
+        padding: 10px 30px;
+        margin-top: 20px
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .btn_2 {
+        padding: 10px 30px;
+        margin-top: 25px
+    }
+}
+
